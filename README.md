@@ -2,6 +2,8 @@
 
 iMX6ULL-DEV-Board is a development board based on NXP i.MX6ULL. It is composed of core board and carrier board. The boards were developed in KiCad 8.0.
 
+![DEV Board](Images/boards.jpg)
+
 ## Core Board
 * i.MX6ULL, MCIMX6Y2CVM08AB, ARM Cortex-A7, 798MHz.
 * Samsung, KLM8G1GETF-B041, 8GB eMMC.
