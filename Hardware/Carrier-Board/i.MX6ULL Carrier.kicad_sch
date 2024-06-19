@@ -1,0 +1,360 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b811b355-39e8-4ef4-949d-2a1589ccc51f")
+	(paper "A4")
+	(title_block
+		(title "i.MX6ULL Carrier")
+		(date "2024-06-14")
+		(rev "0.9.2")
+	)
+	(lib_symbols)
+	(sheet
+		(at 76.2 38.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03c8f742-b8da-48f2-9a9d-a13c7ea0e0ec")
+		(property "Sheetname" "Core"
+			(at 76.2 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Carrier_Core.kicad_sch"
+			(at 76.2 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL Carrier"
+				(path "/b811b355-39e8-4ef4-949d-2a1589ccc51f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 63.5)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04b3a2f2-8ac0-4985-ba84-94b6047ff9b6")
+		(property "Sheetname" "UART"
+			(at 177.8 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Carrier_UART.kicad_sch"
+			(at 177.8 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL Carrier"
+				(path "/b811b355-39e8-4ef4-949d-2a1589ccc51f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 114.3)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "291dffad-3e1f-46bb-aa6e-db3c97b6285f")
+		(property "Sheetname" "LCD-TSC"
+			(at 76.2 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Carrier_LCD-TSC.kicad_sch"
+			(at 76.2 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL Carrier"
+				(path "/b811b355-39e8-4ef4-949d-2a1589ccc51f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 165.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33330925-1edf-4e59-903c-6ea7030a2cf4")
+		(property "Sheetname" "Led-Key"
+			(at 76.2 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Carrier_Led-Key.kicad_sch"
+			(at 76.2 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL Carrier"
+				(path "/b811b355-39e8-4ef4-949d-2a1589ccc51f"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 114.3)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3648baf9-1146-48ca-8dd5-38e74af55e1d")
+		(property "Sheetname" "CAM"
+			(at 127 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Carrier_CAM.kicad_sch"
+			(at 127 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL Carrier"
+				(path "/b811b355-39e8-4ef4-949d-2a1589ccc51f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 63.5)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "63e8f39a-e478-4b10-9e30-cc0360e5190d")
+		(property "Sheetname" "USB2"
+			(at 127 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Carrier_USB2.kicad_sch"
+			(at 127 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL Carrier"
+				(path "/b811b355-39e8-4ef4-949d-2a1589ccc51f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 139.7)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65e19621-121a-4748-a4f3-18a5da0d5888")
+		(property "Sheetname" "ENET"
+			(at 76.2 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Carrier_ENET.kicad_sch"
+			(at 76.2 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL Carrier"
+				(path "/b811b355-39e8-4ef4-949d-2a1589ccc51f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 63.5)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83cfa83a-70e6-4378-9680-c8663fa2780b")
+		(property "Sheetname" "USB1-Power-Boot"
+			(at 76.2 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Carrier_USB1-Power-Boot.kicad_sch"
+			(at 76.2 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL Carrier"
+				(path "/b811b355-39e8-4ef4-949d-2a1589ccc51f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 88.9)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8bcf67c9-fb94-4a40-9df9-7f04061c7a36")
+		(property "Sheetname" "SD"
+			(at 76.2 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Carrier-SD.kicad_sch"
+			(at 76.2 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL Carrier"
+				(path "/b811b355-39e8-4ef4-949d-2a1589ccc51f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

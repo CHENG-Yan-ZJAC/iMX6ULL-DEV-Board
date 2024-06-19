@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "i.MX6ULL_Core")(type "KiCad")(uri "${KIPRJMOD}/i.MX6ULL_Core.pretty")(options "")(descr ""))
+)

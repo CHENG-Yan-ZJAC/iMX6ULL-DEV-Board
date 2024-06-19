@@ -1,0 +1,502 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e87c210e-f51c-4a9b-976c-a3d23f53a50a")
+	(paper "A4")
+	(title_block
+		(title "i.MX6ULL Core")
+		(date "2024-06-06")
+		(rev "0.9.1")
+	)
+	(lib_symbols)
+	(text "i.MX6ULL power and boot."
+		(exclude_from_sim no)
+		(at 38.1 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "035645eb-f141-45bd-b830-c17c9df1e50b")
+	)
+	(text "Board interface and power."
+		(exclude_from_sim no)
+		(at 38.1 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11601c5e-45e2-48bb-8abd-08e7e04bca4d")
+	)
+	(text "Memory and storage."
+		(exclude_from_sim no)
+		(at 38.1 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "258a5ba4-420d-4740-ae7b-86e4ef912a58")
+	)
+	(text "User interface."
+		(exclude_from_sim no)
+		(at 38.1 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c449272-1ec8-472a-9dda-c11183aefe66")
+	)
+	(text "Buses."
+		(exclude_from_sim no)
+		(at 38.1 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9f12e08-ab17-4be2-ba0f-0e35b4215fb2")
+	)
+	(text "Unused pins."
+		(exclude_from_sim no)
+		(at 38.1 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc3257a7-8226-47d6-a8e4-0e40abff6fc2")
+	)
+	(sheet
+		(at 190.5 88.9)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "434afb42-3d4f-4a40-af36-c8919a11dee1")
+		(property "Sheetname" "UART"
+			(at 190.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_UART.kicad_sch"
+			(at 190.5 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 88.9)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4acbdeb9-a7f3-4485-b3dd-ee9b4db1649f")
+		(property "Sheetname" "DDR3L"
+			(at 88.9 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_DDR3L.kicad_sch"
+			(at 88.9 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 114.3)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4eebf007-5214-4181-bca8-00ae8a0ea098")
+		(property "Sheetname" "CSI"
+			(at 139.7 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_CSI.kicad_sch"
+			(at 139.7 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 63.5)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "771f0202-2279-4668-948c-4e36e9af09c0")
+		(property "Sheetname" "PWR"
+			(at 88.9 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_PWR.kicad_sch"
+			(at 88.9 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 165.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9518742b-b5ec-49de-b3d0-73701327143d")
+		(property "Sheetname" "FREE"
+			(at 88.9 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_FREE.kicad_sch"
+			(at 88.9 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 88.9)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a93a9e52-e8c4-4f65-b62b-eac2a1ff84c8")
+		(property "Sheetname" "SD-eMMC"
+			(at 139.7 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_SD-eMMC.kicad_sch"
+			(at 139.7 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 63.5)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c97cf153-86f7-4926-8452-b827a016b038")
+		(property "Sheetname" "OSC-BOOT"
+			(at 139.7 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_OSC-BOOT.kicad_sch"
+			(at 139.7 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 139.7)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1433e49-f7f0-4a88-b2f8-62ee54d5b98c")
+		(property "Sheetname" "I2C-USB-ENET-SPI"
+			(at 88.9 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_I2C-USB-ENET-SPI.kicad_sch"
+			(at 88.9 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 114.3)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8fb1641-1f66-40cb-b1f2-97a7ba4ae548")
+		(property "Sheetname" "LCD-TSC"
+			(at 88.9 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_LCD-TSC.kicad_sch"
+			(at 88.9 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 38.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e675a744-f756-4eac-8c65-d1882eec22af")
+		(property "Sheetname" "Connector"
+			(at 88.9 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_Connector.kicad_sch"
+			(at 88.9 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 38.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee80c84c-b31b-4b39-a323-2c1385fb27a0")
+		(property "Sheetname" "Power"
+			(at 139.7 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i.MX6ULL_Core_Power.kicad_sch"
+			(at 139.7 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "i.MX6ULL_Core"
+				(path "/e87c210e-f51c-4a9b-976c-a3d23f53a50a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

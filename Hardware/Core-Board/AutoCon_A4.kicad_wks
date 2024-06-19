@@ -1,0 +1,185 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 100 26.5)
+		(end 2 2)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Date: ${ISSUE_DATE}"
+		(name "")
+		(pos 68 14)
+	)
+	(line
+		(name "")
+		(start 100 9)
+		(end 2 9)
+	)
+	(tbtext "Drawn: ${DRAWNBY}"
+		(name "")
+		(pos 98 7)
+		(comment "Kicad version")
+	)
+	(line
+		(name "")
+		(start 100 12.5)
+		(end 2 12.5)
+	)
+	(tbtext "Size: ${PAPER}"
+		(name "")
+		(pos 23 10.5)
+		(comment "Paper format name")
+	)
+	(tbtext "Checked: ${CHECKEDBY}"
+		(name "")
+		(pos 48 7)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 100 16)
+		(end 2 16)
+	)
+	(tbtext "Title: ${TITLE}"
+		(name "")
+		(pos 98 22.75)
+		(font
+			(size 2 2) bold italic)
+	)
+	(tbtext "File: ${FILENAME}"
+		(name "")
+		(pos 98 10.5)
+	)
+	(line
+		(name "")
+		(start 100 19.5)
+		(end 2 19.5)
+	)
+	(tbtext "Sheet: ${#}/${##}"
+		(name "")
+		(pos 23 14)
+	)
+	(line
+		(name "")
+		(start 25 9)
+		(end 25 16)
+	)
+	(line
+		(name "")
+		(start 50 5.5)
+		(end 50 9)
+	)
+	(tbtext "Doc. Type: RD-SDS"
+		(name "")
+		(pos 98 17.5)
+	)
+	(tbtext "Rev: ${REVISION}"
+		(name "")
+		(pos 98 14)
+	)
+	(line
+		(name "")
+		(start 100 5.5)
+		(end 2 5.5)
+	)
+	(tbtext "Auto-Control Electronic Information Technology Co., Ltd."
+		(name "")
+		(pos 50 3.5)
+		(font bold)
+		(justify center)
+	)
+	(line
+		(name "")
+		(start 70 12.5)
+		(end 70 19.5)
+	)
+	(tbtext "Drawing No.: ${DRAWINGNO}-${#}"
+		(name "")
+		(pos 68 17.5)
+	)
+)
